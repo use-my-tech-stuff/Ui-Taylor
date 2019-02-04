@@ -80,6 +80,85 @@ input:-webkit-autofill:focus {
     -webkit-box-shadow: 0 0 0px 1000px white inset !important;
 }
 
-*{
+
+.relative {
+    position: relative;
     overflow: hidden;
+}
+
+.absulute {
+    position: absolute;
+}
+
+.content-center {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.area-title,
+.section-title {
+    margin-bottom: 80px;
+    position: relative;
+}
+
+.area-title h2 {
+    color: #1a264a;
+    line-height: 1;
+    margin-bottom: 45px;
+    padding-bottom: 35px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.area-title h2 span {
+    color: #1193d4;
+}
+
+.icon-and-border {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #1193d4;
+    display: inline-block;
+    height: 40px;
+    left: 0;
+    margin: auto;
+    padding-top: 8px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 45px;
+    width: 40px;
+}
+
+.area-title h2::after {
+    border-bottom: 2px dashed #1a264a;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 50%;
+}
+
+
+*{
+    
 }
