@@ -1298,7 +1298,7 @@ ul#nav li ul a,
 }
 
 /*----------------------------
-    3. WELCOME TEXT AREA
+WELCOME TEXT 
 ------------------------------*/
 
 .welcome-area {
@@ -1358,165 +1358,10 @@ ul#nav li ul a,
 }
 
 
-/*--------------------------------
-    4. SERVICE TOP AREA
----------------------------------*/
 
-.qs-box {
-    position: relative;
-}
-
-.qs-box-icon i {
-    margin-bottom: 20px;
-}
-
-.qs-box-icon i {
-    border: 1px solid #1193d4;
-    color: #292929;
-    font-size: 30px;
-    height: 60px;
-    padding-top: 15px;
-    text-align: center;
-    -webkit-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-    width: 60px;
-}
-
-.qs-box:hover .qs-box-icon i {
-    background: #1193d4 none repeat scroll 0 0;
-    border-color: #1193d4;
-    color: #ffffff;
-}
-
-.qs-box-icon img {
-    width: 50px;
-}
-
-.features-top-area .qs-box h3 {
-    font-size: 18px;
-    font-weight: 700;
-    text-transform: capitalize;
-}
-
-.qs-box.pos-icon-left {
-    padding-left: 80px;
-    text-align: left;
-}
-
-.qs-box.pos-icon-left .qs-box-icon {
-    left: 0;
-    position: absolute;
-    top: 0;
-}
-
-.qs-box.pos-icon-right {
-    padding-right: 80px;
-    text-align: right;
-}
-
-.qs-box.pos-icon-right .qs-box-icon {
-    right: 0;
-    position: absolute;
-    top: 0;
-}
 
 /*--------------------------------
-    5. APP AREA
-----------------------------------*/
-
-.high-light {
-    color: #292929;
-    font-weight: 700;
-    margin-bottom: 30px;
-}
-
-.app-area-mockup-bg {
-    background: rgba(0, 0, 0, 0) url("img/mockups/app-area-mockup.png") no-repeat scroll center bottom / contain;
-    bottom: 0;
-    height: 80%;
-    position: absolute;
-    right: 8%;
-    width: 30%;
-}
-
-.app-area .area-title h2::after {
-    left: 0;
-    -webkit-transform: inherit;
-    transform: inherit;
-}
-
-.app-area .icon-and-border {
-    background: #e5eff6 none repeat scroll 0 0;
-    left: 0;
-    right: auto;
-}
-
-.app-area .qs-box-icon i {
-    border-radius: 50%;
-    color: #1193d4;
-}
-
-/*--------------------------------
-    6. VIDEO AREA
----------------------------------*/
-
-.video-area .area-bg::before {
-    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-}
-
-.video-area .area-bg {
-    background: rgba(0, 0, 0, 0) url("img/video/video-area-bg.jpg") no-repeat scroll center top / cover;
-}
-
-.video-area .area-bg::after {
-    background: rgba(0, 0, 0, 0) linear-gradient(120deg, transparent 50%, #1193d4 50%) repeat scroll 0 0;
-    opacity: 0.9;
-}
-
-.video-play-button {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 50px;
-    padding-left: 60px;
-    position: relative;
-}
-
-.video-area-popup {
-    background: transparent none repeat scroll 0 0;
-    border: 1px solid;
-    border-radius: 50%;
-    color: #fff;
-    font-size: 30px;
-    height: 50px;
-    left: 0;
-    line-height: 1;
-    position: absolute;
-    text-align: center;
-    top: 0;
-    -webkit-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-    width: 50px;
-}
-
-.video-area-popup:hover {
-    background: #fff none repeat scroll 0 0;
-    border-color: #fff;
-    color: #1193d4;
-}
-
-.video-play-button h3 {
-    border-bottom: 1px solid;
-    font-family: "Open Sans", sans-serif;
-    margin-bottom: 0;
-    text-transform: uppercase;
-}
-
-/*--------------------------------
-    7. WORK AREA
+ WORK AREA
 ---------------------------------*/
 
 .line-border {
@@ -1596,94 +1441,6 @@ ul#nav li ul a,
         -webkit-box-shadow: 0 0 0 10px rgba(17, 147, 212, 0);
         box-shadow: 0 0 0 10px rgba(17, 147, 212, 0);
     }
-}
-
-/*--------------------------------
-    8. SCREENSHOT AREA
----------------------------------*/
-
-/*.screenshot-slider-mockup {
-    left: calc(50% - 2px);
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    z-index: 9;
-}
-
-.screenshot-slider-mockup img {
-    display: block;
-    margin: 0 auto;
-    width: 71%;
-}*/
-
-.screenshot-slider {
-    background: rgba(0, 0, 0, 0) url("img/screenshot/screenshot-mobile-mockup.png") no-repeat scroll center center / auto 100%;
-}
-
-.screenshot-slider-2 {
-    background: rgba(0, 0, 0, 0) url("img/screenshot/screenshot-mobile-mockup.png") no-repeat scroll right center / auto 100%;
-}
-
-.screenshot-area .single-screenshot {
-    margin: 70px 0 80px;
-}
-
-.screenshot-area .screenshot-slider-2 .single-screenshot {
-    margin: 40px 16px 50px 0;
-}
-
-.screenshot-area .owl-carousel .owl-item img {
-    margin: 0 auto;
-    max-width: 100%;
-    width: auto;
-}
-
-/*--------------------------------
-    9. DOWNLOAD AREA
----------------------------------*/
-
-.download-area .area-bg::after {
-    background: rgba(0, 0, 0, 0) url("img/mockups/hand-mockup.png") no-repeat scroll center 106% / auto 80%;
-}
-
-.download-area.section-padding {
-    padding: 200px 0;
-}
-
-.download-button {
-    border: 1px solid;
-    border-radius: 5px;
-    display: inline-block;
-    font-size: 12px;
-    letter-spacing: 1px;
-    margin-top: 20px;
-    padding: 0 0 10px 30px;
-    position: relative;
-    text-align: center;
-    text-transform: capitalize;
-    width: 210px;
-}
-
-.download-button i {
-    font-size: 30px;
-    left: 14px;
-    position: absolute;
-    top: 16px;
-    width: 0;
-}
-
-.download-button span {
-    display: block;
-    font-size: 26px;
-    line-height: 1;
-}
-
-
-.download-button:hover {
-    background: #fff none repeat scroll 0 0;
-    border-color: #fff;
-    color: #1193d4;
 }
 
 /*-------------------------------
@@ -1768,7 +1525,7 @@ ul#nav li ul a,
 }
 
 /*---------------------------------
-    11. INFO AREA
+ INFO AREA
 ----------------------------------*/
 
 .info-area .read-more {
@@ -1787,106 +1544,9 @@ ul#nav li ul a,
     font-style: italic;
 }
 
-/*---------------------------------
-    12. TESTMONIAL AREA
-----------------------------------*/
-
-.author-image {
-    border-radius: 50%;
-    height: 120px;
-    margin: 0 auto 20px;
-    overflow: hidden;
-    width: 120px;
-}
-
-.testmonial-area .owl-controls {
-    height: 20px;
-    margin-top: 30px;
-    position: relative;
-}
-
-.testmonial-area .owl-dots {
-    left: 50%;
-    position: absolute;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-}
-
-.testmonial-area .owl-dots > div {
-    border: 1px solid #9d9f9f;
-    border-radius: 50%;
-    display: inline-block;
-    height: 15px;
-    margin: 0 5px;
-    -webkit-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-    width: 15px;
-}
-
-.testmonial-area .owl-dots > div.active {
-    background: #1193d4 none repeat scroll 0 0;
-    border-color: #1193d4;
-}
-
-/*---------------------------------
-    13. PRICE AERA
------------------------------------*/
-
-.single-price {
-    background: #ffffff none repeat scroll 0 0;
-    -webkit-box-shadow: 0 0 10px #dddfe0;
-    box-shadow: 0 0 10px #dddfe0;
-    margin-bottom: 30px;
-    -webkit-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-}
-
-.price-hidding {
-    padding: 30px 30px 15px;
-}
-
-.price-rate {
-    background: #f8fafc none repeat scroll 0 0;
-    padding: 25px 0;
-}
-
-.price-rate h2 {
-    color: #1193d4;
-    font-family: open sans;
-    font-size: 70px;
-    margin-bottom: 0;
-}
-
-.price-rate h2 sub {
-    font-size: 18px;
-}
-
-.price-details {
-    padding: 30px 0 20px;
-}
-
-.price-details li {
-    padding: 10px;
-}
-
-.buy-now-button {
-    padding: 25px 0 50px;
-}
-
-.buy-now-button a {
-    border-radius: 50px;
-    letter-spacing: 2px;
-}
-
-.single-price:hover {
-    -webkit-box-shadow: 0 0 20px #dddddd;
-    box-shadow: 0 0 20px #dddddd;
-    -webkit-transform: translateY(-5px);
-    transform: translateY(-5px);
-}
 
 /*--------------------------------
-    14. BLOG AREA
+ rent AREA
 ----------------------------------*/
 
 .single-blog {
@@ -1941,7 +1601,7 @@ ul#nav li ul a,
 }
 
 /*---------------------------------
-    15. CONTACT AREA
+sign up AREA
 ----------------------------------*/
 
 .contact-area .area-bg::before {
@@ -2043,100 +1703,7 @@ label.mt10.valid {
     text-align: center;
 }
 
-/*---------------------------------
-    16. FOOTER AREA
-----------------------------------*/
 
-.footer-social-bookmark .social-bookmark li a {
-    border-radius: 5px;
-    font-size: 20px;
-    height: 40px;
-    margin: 0 5px;
-    padding-top: 8px;
-    text-align: center;
-    width: 40px;
-}
-
-.footer-social-bookmark .social-bookmark li a.facebook {
-    background: #677fb5;
-}
-
-.footer-social-bookmark .social-bookmark li a.twitter {
-    background: #70c2e9;
-}
-
-.footer-social-bookmark .social-bookmark li a.instagram {
-    background: #895a4d;
-}
-
-.footer-social-bookmark .social-bookmark li a.google-plus {
-    background: #d34836;
-}
-
-.footer-social-bookmark .social-bookmark li a.linkedin {
-    background: #007ab9;
-}
-
-.footer-social-bookmark .social-bookmark li a.dribble {
-    background: #e299c2;
-}
-
-.footer-social-bookmark .social-bookmark li a.flickr {
-    background: #ff3ba4;
-}
-
-.footer-social-bookmark .social-bookmark li a.pinterest {
-    background: #d8545d;
-}
-
-.footer-social-bookmark .social-bookmark li a:hover {
-    background: #ffffff;
-    color: #1193d4;
-}
-
-.footer-copyright {
-    padding: 30px 0 15px;
-}
-
-.footer-copyright a:hover {
-    color: #1193d4;
-}
-
-/*---------------------------------
-    17. SCROLL TO TOP AREA
-----------------------------------*/
-
-.scrolltotop {
-    background: #ffffff none repeat scroll 0 0;
-    bottom: 20px;
-    color: #333;
-    display: none;
-    font-size: 20px;
-    height: 40px;
-    padding-top: 8px;
-    position: fixed;
-    right: 20px;
-    text-align: center;
-    width: 40px;
-    z-index: 9;
-}
-
-.scrolltotop:hover {
-    background: #1193d4;
-    color: #ffffff;
-}
-
-.home-two .scrolltotop:hover {
-    background: #ef494d none repeat scroll 0 0;
-    color: #ffffff;
-}
-
-.home-three .scrolltotop:hover {
-    background: #00e2d9;
-    background-image: -webkit-gradient(linear, right top, left top, from(#81ee8e), color-stop(#2deab6), color-stop(#00e2d9), color-stop(#00d7f2), to(#00c9fd));
-    background-image: linear-gradient(to left, #81ee8e, #2deab6, #00e2d9, #00d7f2, #00c9fd);
-    color: #ffffff;
-}
 
 /*---------------------------------
     18. HOME TWO
