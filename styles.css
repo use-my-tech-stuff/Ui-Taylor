@@ -258,7 +258,7 @@ input:-webkit-autofill:focus {
 }
 
 .navbar-header {
-    margin-top: 14px;
+   
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
 }
@@ -288,4 +288,32 @@ input:-webkit-autofill:focus {
     z-index: 9999;
 }
 
+/*welcome page*/
+.welcome-img{
+    padding-top: 100px;
+}
+.welcome-img img {
+    width: 60%;
+}
 
+.welcome-text h4 {
+    font-size: 20px;
+}
+
+.welcome-text h1 {
+    height: 100%;
+    overflow: hidden;
+    padding-top: 100px;
+    width: 100%;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.welcome-area {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}
