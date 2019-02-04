@@ -7,10 +7,9 @@ all do as a team. *Not all Marketing websites will look the same/follow the same
 theme, but at least one has to be the default for the React app.
 
 Monday
-Web UI - Find a template from a site like HTML5 Up and use that templates
- color scheme/design flow for your app. This is a task you will all do as a team.
- *Not all Marketing websites will look the same/follow the same theme, but at
- least one has to be the default for the React app.
+Marketing landing page scaffolded with common layout structure implemented, 
+mobile first features starting to come into play, lorem ipsum in place of copy 
+as placeholder is set in place.
 
 Tuesday
 Marketing site fully responsive to Mobile and Desktop screen widths.
