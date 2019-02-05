@@ -157,6 +157,12 @@ input:-webkit-autofill:focus {
     transform: translateX(-50%);
     width: 50%;
 }
+/*media Qs*/
+@media all and (max-width: 500px) {
+    body{
+        overflow-x: hidden;    
+    }
+}
 /*end of defualt styles */
 
 *{
@@ -194,6 +200,10 @@ input:-webkit-autofill:focus {
     position: absolute;
     top: 0;
     width: 100%;
+}
+
+.area-bg-blue:{
+    background: #0260ee;
 }
 
 .area-bg::after,
@@ -325,7 +335,11 @@ input:-webkit-autofill:focus {
  margin-top:30%;
  margin-left:30%;
 }
-
+@media screen and (max-width: 800px ){
+.resize{
+    display: none;
+}
+}
 .line-border {
     border-bottom: 1px solid #1193d4;
     border-left: 1px solid #1193d4;
@@ -340,41 +354,37 @@ input:-webkit-autofill:focus {
 
 /* rent boxes */
 
-.single-blog {
+.single-rent {
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
 }
 
-.single-blog:hover {
+.single-rent:hover {
     -webkit-box-shadow: 0 0 20px #ddd;
     box-shadow: 0 3 45px #ddd;
     -webkit-transform: translateY(-5px);
     transform: translateY(-5px);
 }
 
-.blog-details h4 a {
+.rent-details h4 a {
     color: #292929;
 }
 
-.single-blog a:hover {
+.single-rent a:hover {
     color: #1193d4;
 }
 
+/*sign in area*/
 
-.blog-meta {
-    margin-bottom: 20px;
+.signup-width{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 450px;
+    text-align: center;
 }
 
-
-
-.blog-details a.readmore {
-    display: inline-block;
-    font-size: 18px;
-    letter-spacing: 1px;
-    margin-top: 15px;
-    color: #1193d4
-}
-
-.blog-details a.readmore:hover {
-    text-decoration: underline;
+.centersp{
+    justify-content: center;
+    display: flex;
 }
