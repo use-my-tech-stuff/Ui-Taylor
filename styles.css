@@ -317,3 +317,23 @@ input:-webkit-autofill:focus {
     justify-content: center;
     width: 100%;
 }
+
+/* Gear solutions */
+.resize {
+ max-height: 175%;
+ max-width: 175%;
+ margin-top:30%;
+ margin-left:30%;
+}
+
+.line-border {
+    border-bottom: 1px solid #1193d4;
+    border-left: 1px solid #1193d4;
+    border-right: 1px solid #1193d4;
+    height: 50px;
+    left: 50%;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    z-index: 1;
+}
