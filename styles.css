@@ -157,8 +157,183 @@ input:-webkit-autofill:focus {
     transform: translateX(-50%);
     width: 50%;
 }
-
+/*end of defualt styles */
 
 *{
     
+}
+
+.width100,
+.width100 img {
+    width: 100%;
+}
+
+.left,
+.right,
+.center {
+    position: relative;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+/*backgrounds*/
+
+.area-bg {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.area-bg::after,
+.area-bg::before {
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.area-bg::before {
+    background: #ebeff8 none repeat scroll 0 0;
+}
+
+/*..........................*/
+
+
+.top-area {
+    height: 100%;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.welcome-text-area {
+    height: 100%;
+    overflow: hidden;
+    padding-top: 100px;
+    width: 100%;
+}
+
+.top-area .area-bg {
+    background: rgba(0, 0, 0, 0)  no-repeat scroll center center / cover;
+}
+
+.top-area .area-bg::after {
+    background: rgba(0, 0, 0, 0)  no-repeat scroll center center / cover;
+    bottom: -59px;
+    height: 166px;
+    top: auto;
+    z-index: 9;
+}
+
+
+/*nav*/
+.header-top-area {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.mainmenu-area {
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    z-index: 9999;
+}
+
+.navbar-header {
+   
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.navbar {
+    border-bottom: 0 none;
+    border-top: 0 none;
+    margin-bottom: 0;
+    background-color:#3557a0 ;
+}
+
+.navbar-brand > img {
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.is-sticky .navbar-brand > img {
+    max-width: 80%;
+}
+
+.stellarnav.dark {
+    background: rgba(0, 0, 0, 0);
+}
+
+.navbar-header {
+    position: relative;
+    z-index: 9999;
+}
+
+/*welcome page*/
+.welcome-img{
+    padding-top: 100px;
+}
+.welcome-img img {
+    width: 60%;
+}
+
+.welcome-text h4 {
+    font-size: 20px;
+}
+
+.welcome-text h1 {
+    height: 100%;
+    overflow: hidden;
+    padding-top: 100px;
+    width: 100%;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.welcome-area {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Gear solutions */
+.resize {
+ max-height: 175%;
+ max-width: 175%;
+ margin-top:30%;
+ margin-left:30%;
+}
+
+.line-border {
+    border-bottom: 1px solid #1193d4;
+    border-left: 1px solid #1193d4;
+    border-right: 1px solid #1193d4;
+    height: 50px;
+    left: 50%;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    z-index: 1;
 }
