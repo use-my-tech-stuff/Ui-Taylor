@@ -337,3 +337,44 @@ input:-webkit-autofill:focus {
     width: 100%;
     z-index: 1;
 }
+
+/* rent boxes */
+
+.single-blog {
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.single-blog:hover {
+    -webkit-box-shadow: 0 0 20px #ddd;
+    box-shadow: 0 3 45px #ddd;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+.blog-details h4 a {
+    color: #292929;
+}
+
+.single-blog a:hover {
+    color: #1193d4;
+}
+
+
+.blog-meta {
+    margin-bottom: 20px;
+}
+
+
+
+.blog-details a.readmore {
+    display: inline-block;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    color: #1193d4
+}
+
+.blog-details a.readmore:hover {
+    text-decoration: underline;
+}
