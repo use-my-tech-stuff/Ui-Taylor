@@ -117,7 +117,7 @@ input:-webkit-autofill:focus {
     position: relative;
 }
 
-.area-title h2 {
+.gear-area h2 {
     color: #1a264a;
     line-height: 1;
     margin-bottom: 45px;
@@ -126,7 +126,7 @@ input:-webkit-autofill:focus {
     text-transform: uppercase;
 }
 
-.area-title h2 span {
+.gear-area h2 span {
     color: #1193d4;
 }
 
@@ -146,7 +146,7 @@ input:-webkit-autofill:focus {
     width: 40px;
 }
 
-.area-title h2::after {
+.gear-area h2::after {
     border-bottom: 2px dashed #1a264a;
     bottom: 0;
     content: "";
@@ -337,7 +337,23 @@ input:-webkit-autofill:focus {
     }
 }
 
+.top-pad{
+    padding-top: 100px;
+}
 /* Gear solutions */
+.gear-area{
+    margin-bottom: 80px;
+    position: relative;
+    font-size: 28px;
+    font-size: 22px;
+    line-height: 1.3;
+    padding-bottom: 10px;
+}
+
+.gear-bg{
+    background-color:#0260ee
+}
+
 .resize {
  max-height: 175%;
  max-width: 175%;
