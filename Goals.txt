@@ -14,6 +14,7 @@ ccccc
 Tuesday
 Marketing site fully responsive to Mobile and Desktop screen widths.
 Marketing "Login" call to action links user to the Deployed React app login screen.
+ccccccccccccc
 
 Wen
 Marketing site replace placeholder copy with description of product
