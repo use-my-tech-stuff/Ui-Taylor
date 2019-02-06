@@ -159,6 +159,7 @@ input:-webkit-autofill:focus {
 }
 /*media Qs*/
 @media all and (max-width: 500px) {
+    
     body{
         overflow-x: hidden;    
     }
@@ -278,6 +279,7 @@ input:-webkit-autofill:focus {
     border-top: 0 none;
     margin-bottom: 0;
     background-color:#3557a0 ;
+    overflow: hidden; 
 }
 
 .navbar-brand > img {
