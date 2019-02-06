@@ -367,13 +367,21 @@ justify-content: center;
 
 }
 
+.imgcontainer{
+    height: auto;
+    text-align: center;
+}
+
 .single-rent {
     padding: 6% 6%;
     background: white;
-    min-width: 240px;
+    min-width: 90%;
     min-height: 400px;
+    max-width: 300px;
+    max-height: 800px;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
+    margin-bottom: 10%;
 }
 
 .single-rent:hover {
