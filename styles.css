@@ -279,6 +279,7 @@ input:-webkit-autofill:focus {
     margin-bottom: 0;
     background-color:#3557a0 ;
     overflow: hidden; 
+    text-align: left;
 }
 
 .navbar-brand > img {
@@ -361,8 +362,16 @@ justify-content: center;
 }
 
 /* rent boxes */
+.rentimg{
+    background-image: linear-gradient(to bottom, #f0f9ff 20%,#43658b 100%);
+
+}
 
 .single-rent {
+    padding: 6% 6%;
+    background: white;
+    min-width: 240px;
+    min-height: 400px;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
 }
