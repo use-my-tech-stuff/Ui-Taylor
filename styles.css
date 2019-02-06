@@ -268,7 +268,7 @@ input:-webkit-autofill:focus {
 }
 
 .navbar-header {
-   
+    margin-top: 14px;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
 }
@@ -280,15 +280,7 @@ input:-webkit-autofill:focus {
     background-color:#3557a0 ;
     overflow: hidden; 
     text-align: left;
-}
 
-.navbar-brand > img {
-    -webkit-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-}
-
-.is-sticky .navbar-brand > img {
-    max-width: 80%;
 }
 
 .stellarnav.dark {
