@@ -20,23 +20,10 @@
     .is-sticky ul#nav li a {
         padding: 20px 10px;
     }
-
-    /*.screenshot-slider-mockup {
-        left: calc(50% - 2.5px);
-    }
-    .screenshot-slider-mockup img {
-        width: 85%;}*/
     .contact-area .area-bg::after {
         background-size: auto 55%;
     }
-    .home-two .welcome-mockup img {
-        display: inherit;
-        margin: inherit;
-        width: auto;
-    }
-    .home-three .welcome-mockup img {
-        width: inherit;
-    }
+
     .screenshot-area .screenshot-slider-2 .single-screenshot {
         margin: 50px 15px 50px 10px;
     }
@@ -94,27 +81,6 @@
     .contact-area .area-bg::after {
         background-size: auto 31%;
     }
-    /*--------------------------
-        HOME TWO
-    -----------------------------*/
-    .home-two .area-title h2 {
-        font-size: 26px;
-    }
-    .home-two .welcome-mockup img {
-        width: 50%;
-    }
-    .welcome-text h1 {
-        font-size: 32px;
-        margin-bottom: 30px;
-    }
-    .home-button img {
-        width: 170px;
-    }
-    .faqs-content img {
-        width: 61%;
-    }
-}
-
 
 /*----------------------------------
      768px
@@ -193,64 +159,9 @@
     .flex-v-center {
         display: inherit;
     }
-    .padding-100-50 {
-        padding-bottom: 30px;
-        padding-top: 80px;
-    }
-    .padding-100-70 {
-        padding-bottom: 50px;
-        padding-top: 80px;
-    }
+
     .app-area-mockup-bg {
         display: none;
-    }
-    .video-area .area-bg::after {
-        background: #1193d4 none repeat scroll 0 0;
-    }
-    .video-area {
-        text-align: center;
-    }
-    .video-play-button {
-        display: -webkit-inline-box;
-        display: -ms-inline-flexbox;
-        display: inline-flex;
-    }
-    .video-area-content h2 {
-        margin-bottom: 32px;
-    }
-
-    .work-area .qs-box.padding-30 {
-        padding: 15px;
-    }
-    .work-area .qs-box.mb100 {
-        margin-bottom: 50px !important;
-    }
-    .work-area .qs-box.mt100 {
-        margin-top: 50px !important;
-    }
-    .work-area .qs-box .line-border {
-        height: 20px;
-    }
-    .work-area .qs-box.left .line-border {
-        height: 28px;
-        top: -10px;
-        -webkit-transform: rotateX(180deg);
-        transform: rotateX(180deg);
-    }
-    .download-area.section-padding {
-        padding: 100px 0;
-    }
-    .download-area .area-bg::after {
-        display: none;
-    }
-    .download-content h2 {
-        font-size: 25px;
-    }
-    .member-name-and-designation.mb50 {
-        margin-bottom: 20px !important;
-    }
-    .single-price {
-        margin-bottom: 30px;
     }
 
     .contact-area .area-bg::after {
@@ -275,16 +186,6 @@
     h2 {
         font-size: 24px;
     }
-    /*
-    .col-xs-12.text-right,
-    .col-xs-12 .text-right,
-    .col-xs-12,
-    .col-xs-12.text-left,
-    .col-xs-12 .text-left,
-    .col-xs-12 {
-        text-align: center;
-    }
-*/
     .section-padding {
         padding: 50px 0;
     }
@@ -297,49 +198,11 @@
     .padding-top {
         padding-top: 50px;
     }
-    .navbar-header {
-        border-bottom: 1px solid #ffffff;
-        margin: 0;
-        padding: 15px 0;
-    }
-    ul#nav {
-        width: 100%;
-        max-height: 200px;
-        overflow: scroll;
-        overflow-x: hidden;
-    }
-    ul#nav li {
-        float: none;
-    }
-    .navbar-brand {
-        margin-top: -3px;
-        padding: 8px;
-    }
-    .is-sticky .navbar-brand {
-        margin-top: -3px;
-    }
-    .navbar-brand > img {
-        margin-top: 2px;
-        ;
-        width: 90%;
-    }
+   
     .mainmenu-area {
         background: #272727 none repeat scroll 0 0;
     }
-    ul#nav li a,
-    .is-sticky ul#nav li a {
-        color: #fff;
-        padding: 10px 15px;
-    }
-    ul#nav li a::after {
-        display: none;
-    }
-    .is-sticky .navbar-brand > img {
-        max-width: 100%;
-    }
-    .is-sticky .menu-toggle.full {
-        top: 18px;
-    }
+   
     /*-----------------*/
     .screenshot-area .single-screenshot {
         margin: 70px 30px 80px;
@@ -382,14 +245,6 @@
         align-items: inherit;
         display: inherit;
     }
-    .padding-100-50 {
-        padding-bottom: 0;
-        padding-top: 50px;
-    }
-    .padding-100-70 {
-        padding-bottom: 20px;
-        padding-top: 50px;
-    }
     .app-area .area-title h2::after {
         left: 50%;
         -webkit-transform: translateX(-50%);
@@ -411,13 +266,3 @@
     .area-title h2 {
         font-size: 26px;
     }
-    ul#nav {
-        width: 100%;
-        max-height: 200px;
-        overflow: scroll;
-        overflow-x: hidden;
-    }
-    ul#nav li {
-        float: none;
-    }
-}
