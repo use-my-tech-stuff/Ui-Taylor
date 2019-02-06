@@ -170,8 +170,7 @@ input:-webkit-autofill:focus {
     
 }
 
-.width100,
-.width100 img {
+.width100{
     width: 100%;
 }
 
@@ -396,4 +395,8 @@ justify-content: center;
 .centersp{
     justify-content: center;
     display: flex;
+}
+
+footer{
+    text-align: center;
 }
