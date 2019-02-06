@@ -59,11 +59,7 @@ body {
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    line-height: 1.6em;
-    font-weight: 400;
-    color: #6f6f6f;
+   
 }
 
 a:hover,
@@ -200,6 +196,19 @@ input:-webkit-autofill:focus {
     position: absolute;
     top: 0;
     width: 100%;
+   
+}
+
+.welcome-text{
+    margin-top: 25%;
+}
+
+.welcome-text h1{
+    color: white;
+}
+
+.welcome-text p{
+    color: white;
 }
 
 .area-bg-blue:{
@@ -217,7 +226,8 @@ input:-webkit-autofill:focus {
 }
 
 .area-bg::before {
-    background: #ebeff8 none repeat scroll 0 0;
+    background-image: url(img/palm-trees.jpg);
+    background-size:  cover;   
 }
 
 /*..........................*/
@@ -268,7 +278,7 @@ input:-webkit-autofill:focus {
 }
 
 .navbar-header {
-   
+    margin-top: 14px;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
 }
@@ -280,15 +290,7 @@ input:-webkit-autofill:focus {
     background-color:#3557a0 ;
     overflow: hidden; 
     text-align: left;
-}
 
-.navbar-brand > img {
-    -webkit-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-}
-
-.is-sticky .navbar-brand > img {
-    max-width: 80%;
 }
 
 .stellarnav.dark {
@@ -315,7 +317,7 @@ input:-webkit-autofill:focus {
 .welcome-text h1 {
     height: 100%;
     overflow: hidden;
-    padding-top: 100px;
+    padding-top: 100px ;
     width: 100%;
     font-size: 40px;
     margin-bottom: 30px;
@@ -329,11 +331,19 @@ input:-webkit-autofill:focus {
     justify-content: center;
     width: 100%;
 }
+@media all and (max-width: 994px) {
+.welcome-text{
+    padding-top: 100%;
+}
+}
 
 @media all and (max-width: 500px) {
     
     .hide500{
         display: none;
+    }
+    .welcome-text{
+        padding-top: 100%;
     }
 }
 
