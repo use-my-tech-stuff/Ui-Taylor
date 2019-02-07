@@ -24,9 +24,7 @@
         background-size: auto 55%;
     }
 
-    .screenshot-area .screenshot-slider-2 .single-screenshot {
-        margin: 50px 15px 50px 10px;
-    }
+ 
 
 
 }
@@ -54,9 +52,6 @@
         padding: 22px 5px;
     }
 
-    /*.screenshot-slider-mockup img {
-        width: 52%;
-    }*/
     .welcome-mockup img {
         width: 70%;
     }
@@ -87,12 +82,7 @@
 ------------------------------------*/
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .section-padding {
-        padding: 80px 0;
-    }
-    .padding-top {
-        padding-top: 80px;
-    }
+
     .navbar-collapse.collapse {
         display: none !important;
     }
@@ -184,9 +174,6 @@
     h2 {
         font-size: 24px;
     }
-    .section-padding {
-        padding: 50px 0;
-    }
     .area-title {
         margin-bottom: 50px;
     }
@@ -258,9 +245,6 @@
 -----------------------------------*/
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-    .section-padding {
-        padding: 50px 0;
-    }
     .area-title h2 {
         font-size: 26px;
     }
