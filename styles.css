@@ -230,6 +230,16 @@ input:-webkit-autofill:focus {
     background-size:  cover;   
 }
 
+.below-logo{
+    margin-left:200px;
+}
+
+@media (max-width: 500px) {
+    .below-logo{
+        margin-left:60px;
+    }
+}
+
 /*..........................*/
 
 
