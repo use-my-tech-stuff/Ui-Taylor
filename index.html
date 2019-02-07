@@ -18,11 +18,12 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href=https://fonts.google.com/specimen/Roboto" rel="stylesheet">
     <link href="css/material-icons.css" rel="stylesheet">
-
+    <link href="leaflet/leaf.css"
     <!--====== MAIN STYLESHEETS ======-->
     <link href="styles.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""></script>
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
    
 </head>
@@ -91,9 +92,9 @@
 
     
     <!--features-->
-    <section class="" >
+    <section class="gear-bg" >
         <div class="container">
-            <div class="width100 gear-bg">
+            <div class="width100">
                 <div class="col-md-8 col-lg-6 col-md-offset-2 col-lg-offset-3 col-sm-12 col-xs-12">
                     <div class="gear-area text-center wow fadeIn">
                         <h2>Gear soultions made easy!</h2>
@@ -129,9 +130,10 @@
                         <p>Have tech that you no longer need? Don't throw it away become a lender! Rent out your own gear with our rental management interface.</p>
                     </div>
                 </div>
-                <div style="padding-bottom: 15%;" class="col-md-4 col-lg-4 col-sm-4 col-xs-12 hidden-sm">
-                  <div>
-                        <img  class="resize" src="img/heatmap.jpg" alt="">
+                <div style="padding-bottom: 15%;" class="col-md-4 col-lg-4 col-sm-4 col-xs-12 hidden-sm hide800">
+                 <div id="mapid">
+                    <div id="">
+                <!--<img  class="resize" src="img/heatmap.jpg" alt="">-->
                 </div>
                 </div>
             </div>
@@ -259,12 +261,30 @@
         </div>
 </section>
     
-    <!--img?-->
+    
  <div>
      <div class="top-area">
      <img src="img/air.jpg" alt="cool img">
     </div>
  </div>
+
+
+<script>
+
+	var mymap = L.map('mapid').setView([25.8104291,-80.2045853],12);
+
+	L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+		maxZoom: 18,
+		attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+			'<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+			'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+		id: 'mapbox.streets'
+	}).addTo(mymap);
+
+</script>
+
+ 
+
 
     <!--footer-->
 <footer>
@@ -280,7 +300,6 @@
     <script src="js/vendor/jquery.appear.js"></script>
     <script src="js/stellar.js"></script>
     <script src="js/wow.min.js"></script>
-    <script src="js/jquery-modal-video.min.js"></script>
     <script src="js/stellarnav.min.js"></script>
     <script src="js/contact-form.js"></script>
     <script src="js/jquery.ajaxchimp.js"></script>
@@ -290,6 +309,9 @@
 
     <!--===== ACTIVE JS=====-->
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+   integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+   crossorigin=""></script>
 </body>
 
 </html>

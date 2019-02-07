@@ -20,7 +20,7 @@ Wen
 Marketing site replace placeholder copy with description of product
 All marketing site pages fully responsive and built out, may still need 
 to polish up styling and layout.
-
+cccccc
 Thurs
 No new features past 11AM PST/GMT. 
 Polish everything.
