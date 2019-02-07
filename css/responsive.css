@@ -168,6 +168,7 @@
     }
    
    
+  
     .top-area .area-bg::after {
         display: none;
     }
@@ -212,12 +213,13 @@
         transform: translateX(-50%);
     }
 
+    /*------------------------------*/
    
 
 
-/*
+/*----------------------------------
      480px
-*/
+-----------------------------------*/
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
     .section-padding {
