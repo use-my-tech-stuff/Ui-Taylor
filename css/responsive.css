@@ -1,7 +1,7 @@
 
-/*
+/*----------------------------------
 1920px
-*/
+-----------------------------------*/
 
 @media only screen and (min-width: 1920px) {
 
@@ -24,12 +24,15 @@
         background-size: auto 55%;
     }
 
+ 
+
+
 }
 
 
-/*
+/*----------------------------------
  1280px
-*/
+-----------------------------------*/
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
 
@@ -49,23 +52,43 @@
         padding: 22px 5px;
     }
 
-    /*.screenshot-slider-mockup img {
-        width: 52%;
-    }*/
     .welcome-mockup img {
         width: 70%;
     }
     .app-area-mockup-bg {
         width: 40%;
     }
-  
+    .work-area .qs-box.left:last-child .line-border {
+        height: 28px;
+        top: 0;
+        -webkit-transform: rotateX(180deg);
+        transform: rotateX(180deg);
+    }
+    .screenshot-area .single-screenshot {
+        margin: 50px 0;
+    }
+    .download-content h2 {
+        font-size: 24px;
+    }
+    .blog-feed-area .padding-30 {
+        padding: 20px;
+    }
+    .contact-area .area-bg::after {
+        background-size: auto 31%;
+    }
 
-/*=
+/*----------------------------------
      768px
-=*/
+------------------------------------*/
 
 @media (min-width: 768px) and (max-width: 991px) {
-   
+
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
     .navbar-header .collapse,
     .navbar-toggle {
         border: 2px solid #eb484d;
@@ -113,6 +136,7 @@
     ul#nav li a::after {
         display: none;
     }
+    /*-----------------*/
     
     .welcome-mockup {
         display: none;
@@ -141,17 +165,14 @@
 }
 
 
-/*
+/*----------------------------------
      320px
-*/
+-----------------------------------*/
 
 @media only screen and (max-width: 767px) {
     .h2,
     h2 {
         font-size: 24px;
-    }
-    .section-padding {
-        padding: 50px 0;
     }
     .area-title {
         margin-bottom: 50px;
@@ -167,8 +188,10 @@
         background: #272727 none repeat scroll 0 0;
     }
    
-   
-  
+    /*-----------------*/
+    .screenshot-area .single-screenshot {
+        margin: 70px 30px 80px;
+    }
     .top-area .area-bg::after {
         display: none;
     }
@@ -222,9 +245,6 @@
 -----------------------------------*/
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-    .section-padding {
-        padding: 50px 0;
-    }
     .area-title h2 {
         font-size: 26px;
     }

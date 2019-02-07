@@ -1,7 +1,7 @@
-window.onscroll = function() {thisfuction()};
+window.onscroll = function() {myFunction()};
 const navbar = document.getElementById("navbar");
 const sticky = navbar.offsetTop;
-function thisFunction() {
+function myFunction() {
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky")
   } else {

@@ -55,3 +55,10 @@ jQuery(document).on('ready', function ($) {
 
   new WOW().init();
 
+
+jQuery(window).on('load', function () {
+    "use strict";
+  
+    $(".preeloader").fadeOut(1000);
+
+});
