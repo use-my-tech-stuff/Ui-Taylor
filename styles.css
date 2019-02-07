@@ -358,10 +358,13 @@ input:-webkit-autofill:focus {
     font-size: 22px;
     line-height: 1.3;
     padding-bottom: 10px;
+    
 }
 
 .gear-bg{
-    background-color:#0260ee
+    
+    background-size: cover;
+    
 }
 
 .resize {
@@ -401,8 +404,8 @@ justify-content: center;
 
 /* rent boxes */
 .rentimg{
-    background-image: linear-gradient(to bottom, #f0f9ff 20%,#43658b 100%);
-
+    background: linear-gradient(to bottom, #f0f9ff 20%,#43658b 100%);
+    background-size: cover;
 }
 
 .img-container img{
@@ -494,3 +497,29 @@ footer{
   .sticky + .content {
     padding-top: 60px;
   }
+
+  .area-title h2{
+      background-color: white;
+      border-radius: 10px;
+      
+  }
+  /* map */
+ #mapid {
+ display: flex;
+ justify-content: center;
+ width: 700px; 
+ height: 644px;
+  }
+
+.map{
+   
+    padding-left: 15%;
+}
+
+@media all and (max-width: 800px) {
+    
+    .hide800{
+        display: none;
+    }
+
+}
