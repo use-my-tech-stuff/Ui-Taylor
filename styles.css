@@ -517,8 +517,9 @@ footer{
  #mapid {
  display: flex;
  justify-content: center;
- width: 700px; 
- height: 644px;
+ padding: 100px 144px;
+ width: 600px; 
+ height: 500px;
   }
 
 .map{
