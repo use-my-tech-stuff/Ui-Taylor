@@ -1,0 +1,14 @@
+{
+  "name": "react-landing-page",
+  "version": "2.0.0",
+  "description": "landing page rebuilt in react",
+  "main": "index.js",
+  "repository": "https://github.com/use-my-tech-stuff/Landingpage-T.git",
+  "author": "Indie Blount <taylor42blount@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.2.0"
+  }
+}
