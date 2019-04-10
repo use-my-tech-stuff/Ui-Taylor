@@ -418,6 +418,10 @@ justify-content: center;
     background-size: cover;
 }
 
+.single-rent:hover{
+    filter: drop-shadow(18px 18px 3px black)
+}
+
 .img-container img{
     display: flex;
     justify-content: center;
@@ -427,6 +431,7 @@ justify-content: center;
 }
 
 .single-rent {
+    border: solid black 5px;
     padding: 6% 6%;
     background: white;
     min-width: 90%;
